@@ -1,0 +1,12 @@
+farm-analytics-ghana/
+├── README.md              ← full project docs with setup guide
+├── data/
+│   ├── farmers.csv        ← 200 rows
+│   ├── produce.csv        ← 200 rows
+│   └── farm_records.csv   ← 200 rows
+├── sql/
+│   ├── 01_create_database.sql
+│   ├── 02_create_tables.sql
+│   └── 03_create_views.sql   ← includes 4 views for Power BI
+└── docs/
+    └── pipeline_overview.md
